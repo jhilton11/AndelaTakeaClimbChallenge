@@ -9,6 +9,15 @@ public class User {
     private String name;
     private String imageUrl;
 
+    public User() {
+    }
+
+    public User(String id, String name, String imageUrl) {
+        this.id = id;
+        this.name = name;
+        this.imageUrl = imageUrl;
+    }
+
     public String getId() {
         return id;
     }

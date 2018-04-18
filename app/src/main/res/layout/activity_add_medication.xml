@@ -8,6 +8,8 @@
     android:orientation="vertical"
     tools:context="com.appify.andelatakeaclimbchallenge.AddMedicationActivity">
 
+    <include layout="@layout/toolbar_layout"/>
+
     <EditText
         android:id="@+id/nameEt"
         android:layout_width="match_parent"
